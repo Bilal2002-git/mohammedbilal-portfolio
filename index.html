@@ -1,0 +1,491 @@
+```html id="portfolio_latest_code_bilal"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohammed Bilal | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#020617;
+color:white;
+overflow-x:hidden;
+}
+
+/* particles */
+
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+/* navigation */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.6);
+display:flex;
+justify-content:center;
+gap:30px;
+padding:12px;
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* hero */
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.profile{
+width:150px;
+height:150px;
+border-radius:50%;
+border:3px solid #38bdf8;
+object-fit:cover;
+margin-bottom:20px;
+transition:0.3s;
+}
+
+.profile:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #38bdf8;
+}
+
+.typing{
+color:#38bdf8;
+margin-top:10px;
+height:25px;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+border-radius:25px;
+text-decoration:none;
+font-weight:600;
+}
+
+.social{
+margin-top:20px;
+display:flex;
+gap:20px;
+}
+
+.social img{
+width:26px;
+filter:invert(1);
+}
+
+/* sections */
+
+section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+/* grid */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+/* cards */
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:10px;
+backdrop-filter:blur(8px);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 0 15px #38bdf8;
+}
+
+.card i,.card img{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* stats */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.stat-box{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:10px;
+}
+
+.stat-box h3{
+font-size:40px;
+color:#38bdf8;
+}
+
+/* footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:rgba(255,255,255,0.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#stats">Stats</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+
+<img src="profile.jpg" class="profile">
+
+<h1>Mohammed Bilal</h1>
+
+<div class="typing" id="typing"></div>
+
+<a class="btn" href="Mohammed_Bilal_CV.pdf" download>Download CV</a>
+
+<div class="social">
+
+<a href="https://github.com/bilal2002-git" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+</a>
+
+<a href="https://www.linkedin.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+</a>
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammedbilalpvm37@gmail.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email">
+</a>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:750px;margin:auto;line-height:1.7">
+
+I am a BSc Computer Science graduate currently working as a <b>Junior Data Analyst</b> at Cogniphi Technologies. My role involves working with large datasets, validating and verifying data, and supporting data preparation processes for AI and Machine Learning related projects.
+
+I have experience in Python programming, Django web development, and data analysis using Pandas and NumPy. I also have knowledge of frontend technologies such as HTML, CSS, JavaScript, and React JS.
+
+I work with relational databases like MySQL and SQLite and NoSQL databases like MongoDB. I also use Excel and Power BI for data visualization and reporting. Additionally, I am familiar with AWS cloud services and comfortable working in Linux and Windows environments.
+
+</p>
+
+</section>
+
+<section id="stats">
+
+<h2>Highlights</h2>
+
+<div class="stats">
+
+<div class="stat-box">
+<h3 class="counter" data-target="1">0</h3>
+<p>Years Experience</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="4">0</h3>
+<p>Projects</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="18">0</h3>
+<p>Technical Skills</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="3">0</h3>
+<p>Internships / Jobs</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="grid">
+
+<div class="card"><i class="devicon-python-plain colored"></i><h3>Python</h3></div>
+<div class="card"><i class="devicon-c-plain colored"></i><h3>C</h3></div>
+<div class="card"><i class="devicon-cplusplus-plain colored"></i><h3>C++</h3></div>
+<div class="card"><i class="devicon-javascript-plain colored"></i><h3>JavaScript</h3></div>
+<div class="card"><i class="devicon-django-plain colored"></i><h3>Django</h3></div>
+<div class="card"><i class="devicon-react-original colored"></i><h3>React JS</h3></div>
+
+<div class="card">
+<img src="https://img.icons8.com/color/48/amazon-web-services.png">
+<h3>AWS</h3>
+</div>
+
+<div class="card"><i class="devicon-mysql-plain colored"></i><h3>MySQL</h3></div>
+<div class="card"><i class="devicon-sqlite-plain colored"></i><h3>SQLite</h3></div>
+<div class="card"><i class="devicon-mongodb-plain colored"></i><h3>MongoDB</h3></div>
+
+<div class="card"><img src="https://img.icons8.com/color/48/pandas.png"><h3>Pandas</h3></div>
+<div class="card"><img src="https://img.icons8.com/color/48/numpy.png"><h3>NumPy</h3></div>
+
+<div class="card"><img src="https://img.icons8.com/color/48/microsoft-excel-2019.png"><h3>Excel</h3></div>
+<div class="card"><img src="https://img.icons8.com/color/48/power-bi.png"><h3>Power BI</h3></div>
+
+<div class="card"><i class="devicon-linux-plain colored"></i><h3>Linux</h3></div>
+<div class="card"><i class="devicon-windows8-original colored"></i><h3>Windows</h3></div>
+
+<div class="card"><i class="devicon-html5-plain colored"></i><h3>HTML / CSS</h3></div>
+<div class="card"><i class="devicon-java-plain colored"></i><h3>Java</h3></div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Online Voting System</h3>
+<p>Django based secure voting web application.</p>
+</div>
+
+<div class="card">
+<h3>Student Management Portal</h3>
+<p>Django portal to manage attendance and academic records.</p>
+</div>
+
+<div class="card">
+<h3>Inventory Management System</h3>
+<p>Python and MySQL based inventory system.</p>
+</div>
+
+<div class="card">
+<h3>Face Recognition Attendance System</h3>
+<p>Python OpenCV based system that automatically marks attendance using facial recognition.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Junior Data Analyst</h3>
+<p>Cogniphi Technologies</p>
+<p>Jul 2025 - Present</p>
+</div>
+
+<div class="card">
+<h3>Python Full Stack Intern</h3>
+<p>One Team Solutions</p>
+<p>Aug 2024 - Mar 2025</p>
+</div>
+
+<div class="card">
+<h3>Freelance IT Expect</h3>
+<p>NEC Pvt Ltd – Smart City Trivandrum Project</p>
+<p>Feb 2024 – Mar 2024</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>BSc Computer Science</h3>
+<p>University of Kerala</p>
+<p>2021 - 2024</p>
+</div>
+
+<div class="card">
+<h3>Higher Secondary</h3>
+<p>St Joseph's Higher Secondary School</p>
+<p>Computer Science</p>
+<p>2019 - 2021</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+<p>Email : mohammedbilalpvm37@gmail.com</p>
+<p>Phone : +91 9809874762</p>
+<p>Location : Trivandrum, Kerala</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Mohammed Bilal</p>
+</footer>
+
+<script>
+
+/* typing animation */
+
+const roles=[
+"Junior Data Analyst",
+"Software Developer",
+"Python Developer",
+"Django Developer"
+];
+
+let i=0,j=0,current="",deleting=false;
+
+function type(){
+current=roles[i];
+if(!deleting){j++;}else{j--;}
+document.getElementById("typing").textContent=current.substring(0,j);
+if(!deleting && j===current.length){
+deleting=true;
+setTimeout(type,1000);
+return;
+}
+if(deleting && j===0){
+deleting=false;
+i=(i+1)%roles.length;
+}
+setTimeout(type,deleting?60:100);
+}
+
+type();
+
+/* stats counter */
+
+const counters=document.querySelectorAll(".counter");
+
+counters.forEach(counter=>{
+const target=+counter.dataset.target;
+let count=0;
+
+const update=()=>{
+count+=target/100;
+if(count<target){
+counter.innerText=Math.ceil(count);
+setTimeout(update,20);
+}else{
+counter.innerText=target+"+";
+}
+};
+
+update();
+});
+
+/* particles */
+
+particlesJS("particles-js",{
+particles:{
+number:{value:80},
+color:{value:"#38bdf8"},
+shape:{type:"circle"},
+opacity:{value:0.5},
+size:{value:3},
+line_linked:{enable:true,color:"#38bdf8"},
+move:{enable:true,speed:2}
+}
+});
+
+</script>
+
+</body>
+</html>
+```
